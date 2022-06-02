@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
   box-sizing: border-box;
   font-size: 16px;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -70,13 +72,14 @@ a:visited {
 
 .hero-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 64px;
 }
 
 .hero-info {
-  border-top: 12px solid #BC6146;
+  border-top: 10px solid #BC6146;
   padding-top: 12px;
+  max-width: 40%;
 }
 
 .hero-title {
@@ -102,18 +105,29 @@ a:visited {
   font-size: 18px;
   font-weight: 600;
   padding: 8px 32px;
+}
 
+.hero-quote {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 32px;
+  background-color: #F1F0F0;
+  color: #2E0001;
+  border-left: 24px solid #2E0001;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-bottom: 64px;
+  max-width: 50%;
 }
 
 .hero-main {
   display: flex;
   justify-content: flex-end;
-  margin: 0;
-  padding: 0;
+  align-items: center;
 }
 
 .hero-media {
-  max-width: 75%;
+  max-width: 80%;
   height: auto;
   border-radius: 1%;
   box-shadow: -1px -1px hsla(0, 0%, 0%, 0.5), 2px 2px hsla(0, 0%, 15%, 0.5), 6px 6px hsla(0, 0%, 10%, 0.8);
