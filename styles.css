@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: currentColor;
+}
+
+/* -------------------------------------------------------- */
+
+
+.hero-module, .media-module, .info-module, .footer-module {
+  padding: 0 100px;
+}
+
+
+/* -------------------------------------------------------- */
+
+.hero-module {
+  background-color: #540507;
+}
+
+.hero-head, .hero-nav {
+  display: flex;
+}
+
+.hero-logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding: 6px 18px;
+  border: 2px solid #DEDEDE;
+  border-radius: 6px;
+  color: #F1F0F0;
+  background-color: #2E0001;
+}
+
+.hero-logo-modifier {
+  color: #AEADAD;
+}
+
+.hero-head {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  margin-bottom: 96px;
+}
+
+.hero-nav {
+  padding-inline-start: 0;
+  color: #DEDEDE;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.hero-info {
+  border-top: 12px solid #BC6146;
+  padding-top: 12px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #DEDEDE;
+  margin: 0;
+}
+
+.hero-subtext {
+  font-size: 24px;
+  font-weight: 300;
+  color: #AEADAD;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.hero-button {
+  border: none;
+  border-radius: 6px;
+  background-color: #BC6146;
+  color: #F1F0F0;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 32px;
+
+}
+
+.hero-main {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-media {
+  max-width: 75%;
+  height: auto;
+  border-radius: 1%;
+  box-shadow: -1px -1px hsla(0, 0%, 0%, 0.5), 2px 2px hsla(0, 0%, 15%, 0.5), 6px 6px hsla(0, 0%, 10%, 0.8);
+}
+
+/*
+Colors:
+
+BC6146 BUTTON
+
+540507 HERO
+2E0001 HERO-DARK
+
+F1F0F0 HIGHER BRIGHTNESS WHITE
+DEDEDE WHITE
+AEADAD HIGHER CONTRAST WHITE
+*/
