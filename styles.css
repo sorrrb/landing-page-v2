@@ -120,8 +120,8 @@ a:visited {
 .media-container {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  margin: 32px 0;
+  gap: 24px;
+  margin: 24px 0;
   
 }
 
@@ -167,7 +167,7 @@ a:visited {
 
 .bottom-wrapper {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   margin: 0;
   padding: 0;
 }
@@ -212,6 +212,18 @@ a:visited {
   border-radius: 6px;
   border: 2px solid #F1F0F0; 
   padding: 12px 64px;
+}
+
+/* -------------------------------------------------------- */
+
+.footer-module {
+  background-color: #540507;
+}
+
+.footer-text {
+  text-align: center;
+  color: #F1F0F0;
+  margin: 24px 0;
 }
 
 /*
