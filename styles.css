@@ -107,25 +107,69 @@ a:visited {
   padding: 8px 32px;
 }
 
-.hero-quote {
-  font-size: 18px;
-  font-weight: 500;
-  padding: 16px 32px;
-  background-color: #F1F0F0;
-  color: #2E0001;
-  border-left: 24px solid #2E0001;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  margin-bottom: 64px;
-  max-width: 50%;
-}
-
 .hero-main {
   max-width: 50%;
   max-height: 50%;
   margin-left: 32px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3px;
+}
+
+/* MEDIA */
+
+.media-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 32px 0;
+  
+}
+
+.media-quote {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 16px 32px;
+  background-color: #F1F0F0;
+  color: #2E0001;
+  border-top: 20px solid #2E0001;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.first-quote {
+  max-width: 100%;
+}
+
+.quote-left {
+  border: none;
+  border-radius: 0;
+  border-left: 20px solid #2E0001;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  max-width: 75%;
+}
+
+.quote-right {
+  text-align: end;
+  border: none;
+  border-radius: 0;
+  border-right: 20px solid #2E0001;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  max-width: 25%;
+}
+
+.media-cite {
+  font-weight: 700;
+  color: #2E2D2D;
+}
+
+.bottom-wrapper {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
 }
 
 /*
