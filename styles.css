@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: currentColor;
+}
+
 a:visited {
   color: currentColor;
 }
